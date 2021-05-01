@@ -16,8 +16,7 @@ module.exports = withCSS({
     return config;
   },
   env: {
-    MAILTRAP_USER_LOGIN: "d9d404448c89d5",
-    MAILTRAP_USER_PASSWORD: "17c6933b114209",
-  }
-
+    MAILTRAP_USER_LOGIN: process.env.MAILTRAP_USER_LOGIN,
+    MAILTRAP_USER_PASSWORD: process.env.MAILTRAP_USER_PASSWORD,
+  },
 });
