@@ -19,4 +19,5 @@ module.exports = withCSS({
     MAILTRAP_USER_LOGIN: "d9d404448c89d5",
     MAILTRAP_USER_PASSWORD: "17c6933b114209",
   },
+  future: { webpack5: true },
 });
